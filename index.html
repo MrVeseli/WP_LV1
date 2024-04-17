@@ -4,9 +4,337 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ivana Ivanić</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio by Antonio Veselčić</title>
 </head>
 <body>
-    <h1><?= "Hello LV1 task" ?></h1>
+
+    <div class="header-container">
+        <div class="header">
+            <div class="logo">
+                <img src="static/Logo.png" alt="Page Logo">
+            </div>
+            <nav>
+                <a href="#home" class="active">Home</a>
+                <a href="#portfolio" class="active">Portfolio</a>
+                <a href="#about_me" class="active">About Me</a>
+                <a href="#testemonials" class="active">Testemonials</a>
+            </nav>
+            <button class="contact-button">
+                <a href="#contact">Contact me</a>
+            </button>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <div class="container-left">
+            <p class="name">Hi, I am John</p>
+            <p class="title-main">
+                I create <span class="purple-span">product design</span>
+                and brand experience
+            </p>
+            <p class="description-main">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <br>Dolorem delectus voluptatibus accusamus, cum facere odio...
+            </p>
+            <button class="touch-button">Get in touch</button>
+        </div>
+        <div class="container-right">
+            <img src="static/profile.png" alt="My image" class="right-image">
+        </div>
+    </div>
+
+    <div class="skills-container">
+        <div class="skills-inner">
+            <div>
+                <p class="my-skills">My Skills</p>
+                <p class="my-expertise">My Expertise</p>
+            </div>
+            <div class="item-container">
+                <div class="item">
+                    <img class="item-icon" src="static/product-chain 1.png" alt="Product chain" loading="lazy">
+                    <p class="item-title">Strategy & Direction</p>
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet,
+                        <br/>consectetur adipiscing elit. 
+                        <br/>Suspendisse variusenim in eros
+                        <br/>elementum tristique.
+                    </p>
+                </div>
+                <div class="item">
+                    <img class="item-icon" src="static/tag 1.png" alt="Product chain" loading="lazy">
+                    <p class="item-title">Branding & Logo</p>
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet,
+                        <br/>consectetur adipiscing elit. 
+                        <br/>Suspendisse variusenim in eros
+                        <br/>elementum tristique.
+                    </p>
+                </div>
+                <div class="item">
+                    <img class="item-icon" src="static/feather-pen 1.png" alt="Product chain" loading="lazy">
+                    <p class="item-title">UI & UX Design</p>
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet,
+                        <br/>consectetur adipiscing elit. 
+                        <br/>Suspendisse variusenim in eros
+                        <br/>elementum tristique.
+                    </p>
+                </div>
+                <div class="item">
+                    <img class="item-icon" src="static/feather-pen 1-1.png" alt="Product chain" loading="lazy">
+                    <p class="item-title">Webflow Development</p>
+                    <p class="item-description">
+                        Lorem ipsum dolor sit amet,
+                        <br/>consectetur adipiscing elit. 
+                        <br/>Suspendisse variusenim in eros
+                        <br/>elementum tristique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-me">
+        <div class="container-left">
+            <img src="static/About Me.png" class="about-me-img" alt="About me" loading="lazy"/>
+        </div>
+        <div class="container-right">
+            <div class="skills-inner">
+                <p class="name">
+                    About
+                </p>
+                <br/>
+                <p class="my-expertise">About me</p>
+                <p class="description-main">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius
+                    faucibus massa sollicitudin amet augue. Nibh <br> metus a semper purus
+                    mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac
+                    adipiscing velit <br />
+                    non nulla in amet pellentesque. <br />
+                    <br />
+                    Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur
+                    eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod
+                    risus r.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio-inner">
+            <div>
+                <p class="recent-projects">Recent Projects</p>
+                <p class="my-portfolio">My Portfolio</p>
+            </div>
+            <button class="social-button">
+                <img src="static/Social icon.png" alt="social" loading="lazy" />
+                Visit My Dribbble
+            </button>
+        </div>
+
+        <div class="card-container">
+            <div class="card-inner">
+                <div class="box">
+                    <div class="box-image">
+                        <img src="static/Blog /Placeholder / Image.png" alt="Slika" class="box-img" loading="lazy">
+                    </div>
+                    <div class="box-frame">
+                        <p class="box-title">Ahuse</p>
+                        <div class="box-description">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros.
+                          </p>
+                        </div>
+                        <div class="box-detail">
+                          <div class="inner-detail">
+                            <p>View In Dribbble</p>
+                            <img class="arrow-img" src="static/vector.png" alt="slika" loading="lazy" />
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-image">
+                        <img src="static/Blog /Placeholder / Image-1.png" alt="slika" class="box-img" loading="lazy">
+                    </div>
+                    <div class="box-frame">
+                        <p class="box-title">App Dashboard</p>
+                        <div class="box-description">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros.
+                          </p>
+                        </div>
+                        <div class="box-detail">
+                          <div class="inner-detail">
+                            <p>View In Dribbble</p>
+                            <img class="arrow-img" src="static/vector.png" alt="slika" loading="lazy" />
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-image">
+                        <img src="static/Blog /Placeholder / Image-2.png" alt="slika" class="box-img" loading="lazy">
+                    </div>
+                    <div class="box-frame">
+                        <p class="box-title">Easy Rent</p>
+                        <div class="box-description">
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Suspendisse varius enim in eros.
+                          </p>
+                        </div>
+                        <div class="box-detail">
+                          <div class="inner-detail">
+                            <p>View In Dribbble</p>
+                            <img class="arrow-img" src="static/vector.png" alt="slika" loading="lazy" />
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="testimonials-inner">
+            <div>
+                <p class="clients-feedback">Clients feedback</p>
+                <p class="customer-testimonials">Customer testimonials</p>
+            </div>
+            <div class="reviews">
+                <div class="testimonial">
+                    <img class="stars" src="static/Stars.png" alt="stars" loading="lazy"/>
+                    <p class="testimonial-p">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique. Duis cursus,
+                        mi quis viverra ornare."
+                    </p>
+                    <div class="person">
+                        <img class="person-img" src="static/Avatar Image.png" alt="Avatar" loading="lazy" />
+                        <div class="person-info">
+                            <p class="person-name">Dianne Russell</p>
+                            <p class="person-job">Starbucks</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img class="stars" src="static/Stars.png" alt="stars" loading="lazy"/>
+                    <p class="testimonial-p">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique. Duis cursus,
+                        mi quis viverra ornare."
+                    </p>
+                    <div class="person">
+                        <img class="person-img" src="static/Avatar Image-1.png" alt="Avatar" loading="lazy" />
+                        <div class="person-info">
+                            <p class="person-name">Kristin Watson</p>
+                            <p class="person-job">Louis Vuitton</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img class="stars" src="static/Stars.png" alt="stars" loading="lazy"/>
+                    <p class="testimonial-p">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique. Duis cursus,
+                        mi quis viverra ornare."
+                    </p>
+                    <div class="person">
+                        <img class="person-img" src="static/Avatar Image-2.png" alt="Avatar" loading="lazy" />
+                        <div class="person-info">
+                            <p class="person-name">Kathryn Murphy</p>
+                            <p class="person-job">McDonald's</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="form-page" id="contactme">
+        <section>
+            <p style="font-weight: 600;" class="feedback-header">Get In Touch</p>
+            <p class="big-text feedback-header">Contact me</p>
+            <p style="font-size: 1.5rem;" class="feedback-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form action="https://www.freepik.com/free-photos-vectors/thankyou">
+                <div class="inputs">
+                    <div class="multiple-inputs">
+                        <div>
+                            <p id="first-name">First name</p>
+                            <input type="text" aria-labelledby="first-name">
+                        </div>
+                        <div>
+                            <p id="email">Email</p>
+                            <input type="text" aria-labelledby="email">
+                        </div>
+                    </div>
+                    <div class="multiple-inputs">
+                        <div>
+                            <p id="last-name">Last name</p>
+                            <input type="text" aria-labelledby="last-name">
+                        </div>
+                        <div>
+                            <p id="phone-number">Phone number</p>
+                            <input type="text" aria-labelledby="phone-number">
+                        </div>
+                    </div>
+                </div>
+                <div class="other-inputs">
+                    <p id="choose-topic">Choose a topic</p>
+                    <select name="topic" aria-labelledby="choose-topic">
+                        <option value="selectOne" aria-selected="true">Select one...</option>
+                        <option value="date">Date</option>
+                        <option value="help">Help</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="other-inputs">
+                    <p id="message">Message</p>
+                    <textarea placeholder="Type your message..." rows="8" aria-labelledby="message"></textarea>
+                </div>
+                <div class="check">
+                    <input type="checkbox" aria-checked="false" aria-labelledby="accept-terms">
+                    <span id="accept-terms">I accept the terms</span>
+                </div>
+                <input type="Submit" class="submit-button" value="Submit" aria-disabled="false" aria-label="Submit form">
+            </form>
+        </section>
+    </div>
+
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="footer-upper">
+                <img src="static/Logo.png" alt="Logo" class="footer-logo">
+                <div class="footer-navs">
+                    <p class="footer-p">Home</p>
+                    <p class="footer-p">Portfolio</p>
+                    <p class="footer-p">About me</p>
+                    <p class="footer-p">Contact</p>
+                    <p class="footer-p">Testimonials</p>
+                    <p class="footer-p">Portfolio</p>
+                </div>
+                <div class="footer-logos">
+                    <img src="static/Facebook.png" alt="Facebook logo" class="footer-icon">
+                    <img src="static/Instagram.png" alt="Instagram logo" class="footer-icon">
+                    <img src="static/Twitter.png" alt="Twitter logo" class="footer-icon">
+                    <img src="static/LinkedIn.png" alt="Facebook logo" class="footer-icon">
+                </div>
+            </div>
+            <div class="footer-lower">
+                <div>
+                    Made with 💖 by <a class="air" href="https://www.airdokan.com/">Airdokan</a>
+                </div>
+                <div class="footer-terms">
+                    <p class="terms-p">Privacy Policy</p>
+                    <p class="terms-p">Terms of Service</p>
+                    <p class="terms-p">Cookies Settings</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
